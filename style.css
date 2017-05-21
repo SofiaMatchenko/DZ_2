@@ -1,31 +1,26 @@
-/* css-код задания 1
-body
-{
-background-color: blue;
+/* css-code task 1
+body {
+background-color: #0000FF;
 }*/
 
-/* css-код задания 2*/
-*
-{
+/* css-code task 2*/
+* {
     margin: 0;
     padding: 0;
 }
-h2, hr, p
-{
+h2, hr, p {
     margin: 5px 0px;
 }
 
-body>h2
-{
-    color: white;
+body>h2 {
+    color: #FFFFFF;
     width: 90px;
     height: 30px;
-    background-color: red;
+    background-color: #FF0000;
 }
 
-h2+p
-{
-    background-color: blue;
+h2+p {
+    background-color: #0000FF;
     width: 200px;
     height: 40px;
 }
@@ -37,37 +32,32 @@ hr {
     width: 250px;
 }
 
-hr+p
-{
-    background-color: yellow;
+hr+p {
+    background-color: #FFFF00;
     width: 200px;
     height: 30px;
 }
-/* css-код задания 3*/
-.one
-{
+/* css-code task 3*/
+.one {
     margin: 30px 0px 5px;
     width: 50px;
     height: 40px;
-    background-color: red;
+    background-color: #FF0000;
 }
 
-.two
-{
+.two {
     background-color: orange;
     width: 90px;
     height: 40px;
 }
 
-.three
-{
-    background-color: blue;
+.three {
+    background-color: #0000FF;
     width: 130px;
     height: 40px;
 }
-/* css-код задания 4*/
-.sub
-{
+/* css-code task 4*/
+.sub {
     margin: 30px 0px 5px;
     padding: 30px 0px;
     font-size: 250%;
@@ -76,9 +66,8 @@ hr+p
     width: 250px;
     height: 60px;
 }
-/* css-код задания 5*/
-.grey_box
-{
+/* css-code task 5*/
+.grey_box {
     margin: 30px 0px 5px;
     padding: 15px 0px;
     background-color: #ccc;
@@ -87,45 +76,38 @@ hr+p
     min-height: 150px;
 }
 
-.grey_box h1
-{
+.grey_box h1 {
     color: #630;
 }
 
-.grey_box h3
-{
+.grey_box h3 {
     color: #963;
 }
 
-.grey_box a
-{
+.grey_box a {
     color: #360;
 }
-/* css-код задания 6*/
-.equation
-{
+/* css-code task 6*/
+.equation {
     margin: 30px 0px 5px;
     width: 420px;
     min-height: 80px;
-    border: 2px dashed black;
+    border: 2px dashed #000000;
     line-height: 150%;
 }
-/* css-код задания 7*/
-.polynomial
-{
+/* css-code task 7*/
+.polynomial {
     margin: 30px 0px 5px;
     width: 300px;
     min-height: 80px;
-    border: 2px dashed black;
+    border: 2px dashed #000000;
     line-height: 150%;
 }
 
-.blue
-{
-    color: blue;
+.blue {
+    color: #0000FF;
 }
 
-.red
-{
-    color: red;
+.red {
+    color: #FF0000;
 }
