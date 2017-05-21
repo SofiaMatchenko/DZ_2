@@ -1,0 +1,131 @@
+/* css-код задания 1
+body
+{
+background-color: blue;
+}*/
+
+/* css-код задания 2*/
+*
+{
+    margin: 0;
+    padding: 0;
+}
+h2, hr, p
+{
+    margin: 5px 0px;
+}
+
+body>h2
+{
+    color: white;
+    width: 90px;
+    height: 30px;
+    background-color: red;
+}
+
+h2+p
+{
+    background-color: blue;
+    width: 200px;
+    height: 40px;
+}
+
+hr {
+    height: 1px;
+    background-color: #000500;
+    border: none;
+    width: 250px;
+}
+
+hr+p
+{
+    background-color: yellow;
+    width: 200px;
+    height: 30px;
+}
+/* css-код задания 3*/
+.one
+{
+    margin: 30px 0px 5px;
+    width: 50px;
+    height: 40px;
+    background-color: red;
+}
+
+.two
+{
+    background-color: orange;
+    width: 90px;
+    height: 40px;
+}
+
+.three
+{
+    background-color: blue;
+    width: 130px;
+    height: 40px;
+}
+/* css-код задания 4*/
+.sub
+{
+    margin: 30px 0px 5px;
+    padding: 30px 0px;
+    font-size: 250%;
+    text-align: center;
+    background-color: #ff8559;
+    width: 250px;
+    height: 60px;
+}
+/* css-код задания 5*/
+.grey_box
+{
+    margin: 30px 0px 5px;
+    padding: 15px 0px;
+    background-color: #ccc;
+    line-height: 250%;
+    width: 500px;
+    min-height: 150px;
+}
+
+.grey_box h1
+{
+    color: #630;
+}
+
+.grey_box h3
+{
+    color: #963;
+}
+
+.grey_box a
+{
+    color: #360;
+}
+/* css-код задания 6*/
+.equation
+{
+    margin: 30px 0px 5px;
+    width: 420px;
+    min-height: 80px;
+    border: 2px dashed black;
+    line-height: 150%;
+}
+/* css-код задания 7*/
+.polynomial
+{
+    margin: 30px 0px 5px;
+    width: 300px;
+    min-height: 80px;
+    border: 2px dashed black;
+    line-height: 150%;
+}
+
+.blue
+{
+    color: blue;
+}
+
+.red
+{
+    color: red;
+}
