@@ -9,7 +9,7 @@ background-color: #0000FF;
     padding: 0;
 }
 h2, hr, p {
-    margin: 5px 0px;
+    margin: 5px 0;
 }
 
 body>h2 {
@@ -37,71 +37,71 @@ hr+p {
     width: 200px;
     height: 30px;
 }
+/*css-code for distance between tasks*/
+.one, .sub, .grey-box, .equation, .polynomial {
+    margin: 30px 0 5px;
+}
+
 /* css-code task 3*/
-.one {
-    margin: 30px 0px 5px;
-    width: 50px;
+.one, .two, .three {
     height: 40px;
+}
+
+.one {
+    width: 50px;
     background-color: #FF0000;
 }
 
 .two {
-    background-color: orange;
+    background-color: #FFA500;
     width: 90px;
-    height: 40px;
 }
 
 .three {
     background-color: #0000FF;
     width: 130px;
-    height: 40px;
 }
 /* css-code task 4*/
 .sub {
-    margin: 30px 0px 5px;
-    padding: 30px 0px;
+    padding: 30px 0;
     font-size: 250%;
     text-align: center;
     background-color: #ff8559;
     width: 250px;
-    height: 60px;
+    min-height: 60px;
 }
 /* css-code task 5*/
-.grey_box {
-    margin: 30px 0px 5px;
-    padding: 15px 0px;
+.grey-box {
+    padding: 15px 0;
     background-color: #ccc;
     line-height: 250%;
     width: 500px;
     min-height: 150px;
 }
-
-.grey_box h1 {
+.grey-box h1 {
     color: #630;
 }
 
-.grey_box h3 {
+.grey-box h3 {
     color: #963;
 }
 
-.grey_box a {
+.grey-box a {
     color: #360;
 }
-/* css-code task 6*/
-.equation {
-    margin: 30px 0px 5px;
+/* css-code task 6, task 7*/
+.equation, .polynomial {
     width: 420px;
     min-height: 80px;
     border: 2px dashed #000000;
     line-height: 150%;
 }
+.equation {
+    width: 420px;
+}
 /* css-code task 7*/
 .polynomial {
-    margin: 30px 0px 5px;
     width: 300px;
-    min-height: 80px;
-    border: 2px dashed #000000;
-    line-height: 150%;
 }
 
 .blue {
